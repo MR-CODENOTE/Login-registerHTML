@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+</head>
+<body>
+
+    <h1>Account Access</h1>
+    <p>Please log in to your account or register a new one.</p>
+
+    <hr>
+
+    <h2>Login</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Existing User Login</legend>
+            <p>
+                <label for="login_email">Email:</label><br>
+                <input type="email" id="login_email" name="login_email" required size="40">
+            </p>
+            <p>
+                <label for="login_password">Password:</label><br>
+                <input type="password" id="login_password" name="login_password" required minlength="8" size="40">
+            </p>
+            <p>
+                <input type="submit" value="Login">
+            </p>
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h2>Registration</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>New User Registration</legend>
+            <p>
+                <label for="reg_fullName">Full Name:</label><br>
+                <input type="text" id="reg_fullName" name="reg_full_name" required size="40">
+            </p>
+            <p>
+                <label for="reg_email">Email Address:</label><br>
+                <input type="email" id="reg_email" name="reg_email_address" required size="40">
+            </p>
+            <p>
+                <label for="reg_password">Create Password:</label><br>
+                <input type="password" id="reg_password" name="reg_user_password" required minlength="8" size="40">
+            </p>
+            <p>
+                <label for="reg_confirm_password">Confirm Password:</label><br>
+                <input type="password" id="reg_confirm_password" name="reg_confirm_password" required minlength="8" size="40">
+            </p>
+             <p>
+                <input type="checkbox" id="reg_terms" name="reg_terms_and_conditions" required>
+                <label for="reg_terms">I agree to the terms and conditions</label>
+            </p>
+            <p>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear Form">
+            </p>
+        </fieldset>
+    </form>
+
+
+    <button href="cor.html" id="cor1">Go to COR</button>
+
+</body>
+</html>
